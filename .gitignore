@@ -1,0 +1,36 @@
+# Packer cache and build artifacts
+packer_cache/
+*.box
+crash.log
+
+# Vagrant
+.vagrant/
+*.box
+
+# Environment files with sensitive data
+*.pkrvars.hcl
+.env
+.env.local
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+awscliv2.zip
+localstack-cli-*.tar.gz
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
+*.backup
